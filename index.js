@@ -69,7 +69,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('hello World my bro')
+    res.send('hello World my bro');
 });
 
 app.listen(port, () => {
